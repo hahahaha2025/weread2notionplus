@@ -1,0 +1,12 @@
+
+name: Sync WeRead Notes
+on:
+  workflow_dispatch:
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Sync
+        run: echo "Hello World"
+    
